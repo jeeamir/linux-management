@@ -28,3 +28,6 @@ If one complete commit introduced the problem and later work must be retained,
 create a new branch and use `git revert <bad-commit>`. This preserves the audit
 trail and is safer than rewriting shared history.
 
+## Incident escalation
+
+Record the command, output and affected server before escalating an incident to another administrator.

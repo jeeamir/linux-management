@@ -15,7 +15,7 @@ for script in "$repo_root"/scripts/*.sh; do
   fi
 done
 
-if "$repo_root/scripts/system_info.sh" | grep -q '^Hostname:'; then
+if "$repo_root/scripts/system_info.sh" | grep '^Hostname:' >/dev/null; then
   pass 'system information includes hostname'
 else
   fail 'system information includes hostname'

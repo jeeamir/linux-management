@@ -1,0 +1,6 @@
+# Copy to server-manager.conf and adapt for the target server.
+DISK_THRESHOLD=80
+DEFAULT_MOUNT_POINT=/
+DEFAULT_SERVICE=sshd
+BACKUP_SOURCE=/etc
+BACKUP_DIRECTORY=/var/backups/server-manager
